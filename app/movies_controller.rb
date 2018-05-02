@@ -65,7 +65,7 @@ def can_find_using_where_clause_and_be_sorted
 end
 
 def can_be_found_updated_and_saved
-  # Updtate the title "Awesome Flick" to "Even Awesomer Flick"
+  # Update the title "Awesome Flick" to "Even Awesomer Flick"
   Movie.create(title: "Awesome Flick")
   Movie.update(1, title: "Even Awesomer Flick")
 
@@ -74,7 +74,7 @@ end
 def can_update_using_update_method
   # Update movie title to "Wat, huh?"
   Movie.create(title: "Wat?")
-  Movie.update(title: 'Wat, huh?')
+  Movie.update(1,title: 'Wat, huh?')
   __
 end
 
