@@ -83,7 +83,7 @@ def can_update_multiple_items_at_once
     Movie.create(title: "Movie_#{i}", release_date: 2000+i)
   end
   i = 0
-  while i < movie.count
+  while i < Movie.count
     m.update(i,title: 'A Movie')
     i+=1
   end
