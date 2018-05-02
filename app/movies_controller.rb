@@ -84,7 +84,7 @@ def can_update_multiple_items_at_once
   end
   i = 0
   while i < Movie.count
-    m.update(i,title: 'A Movie')
+  Movie.update(i,title: 'A Movie')
     i+=1
   end
 end
