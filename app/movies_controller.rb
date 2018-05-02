@@ -85,6 +85,7 @@ def can_update_multiple_items_at_once
   end
   Movies.each do |m|
     m.update(title: 'A Movie')
+  end
 end
 
 def can_destroy_a_single_item
